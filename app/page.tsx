@@ -9,7 +9,7 @@ export default function Home() {
                         <TextGradient text='Developer' /> & IT-student
                     </h1>
                 </header>
-                <p className='text-2xl mt-2'>Hi, I'm Marius Begby! 👋🏻</p>
+                <p className='text-2xl mt-2'>Hi, I'm <span className='font-bold'>Marius Begby</span>! <span className='waving-hand-emoji'>👋🏻</span></p>
                 <p className='text-slate-400'>
                     This website is being contructed.
                 </p>
