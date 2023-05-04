@@ -13,10 +13,10 @@ module.exports = {
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
             },
             animation: {
-                'text-gradient': 'text-gradient 10s ease infinite'
+                'text-gradient': 'text-gradient-animation 10s ease infinite'
             },
             keyframes: {
-                'text-gradient': {
+                'text-gradient-animation': {
                     '0%, 100%': {
                         'background-size': '200% 200%',
                         'background-position': 'left center'
