@@ -28,25 +28,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang='en'>
-            <body className={`${inter.variable} ${mulish.variable}`}>{children}</body>
+            <body className={`${inter.variable} ${mulish.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }
-
-/**
-<style jsx global>{`
-    html,
-    body {
-        font-family: ${mulish.style.fontFamily};
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: ${inter.style.fontFamily};
-    }
-`}</style>
- */
