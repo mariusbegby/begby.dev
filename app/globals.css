@@ -65,3 +65,35 @@ svg:hover {
         font-size: 0.9em;
     }
 }
+
+.waving-hand-emoji {
+    animation-name: wave-hand-animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-hand-animation {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(14deg);
+    }
+    10% {
+        transform: rotate(-8deg);
+    }
+    15% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-4deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+}
