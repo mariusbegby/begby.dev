@@ -14,7 +14,7 @@ export default function Home() {
                     <span className="waving-hand-emoji">👋🏻</span>
                 </p>
                 <p className="dark:text-slate-400">
-                    This website is being contructed.
+                    This website is being constructed.
                 </p>
 
                 <ul className="flex gap-2 mt-4">
