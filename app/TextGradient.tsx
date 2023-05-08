@@ -12,7 +12,7 @@ export default function TextGradient(props: TextGradientProps) {
 
     return (
         <span
-            className={`bg-clip-text text-transparent bg-gradient-to-r ${from} ${via} ${to} animate-text-gradient bg-white`}>
+            className={`animate-text-gradient bg-white bg-gradient-to-r bg-clip-text text-transparent ${from} ${via} ${to}`}>
             {props.text}
         </span>
     );

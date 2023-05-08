@@ -2,14 +2,14 @@ import TextGradient from './TextGradient';
 
 export default function Home() {
     return (
-        <main className="flex flex-col items-center justify-center h-screen m-auto p-4">
+        <main className="m-auto flex h-screen flex-col items-center justify-center p-4">
             <section>
                 <header className="flex items-start">
                     <h1>
                         <TextGradient text="Developer" /> & IT-student
                     </h1>
                 </header>
-                <p className="text-2xl mt-2">
+                <p className="mt-2 text-2xl">
                     Hi, I'm <span className="font-bold">Marius Begby</span>!{' '}
                     <span className="waving-hand-emoji">👋🏻</span>
                 </p>
@@ -17,7 +17,7 @@ export default function Home() {
                     This website is being constructed.
                 </p>
 
-                <ul className="flex gap-2 mt-4">
+                <ul className="mt-4 flex gap-2">
                     <li>
                         <a
                             href="https://github.com/mariusbegby"
